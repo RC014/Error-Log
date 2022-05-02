@@ -1,10 +1,13 @@
-PS C:\Users\Steff\Documents\\VS\Personal> pip install torch
-Requirement already satisfied: torch in c:\users\steff\appdata\local\programs\python\python310\lib\site-packages (1.11.0)
-Requirement already satisfied: typing-extensions in c:\users\steff\appdata\local\programs\python\python310\lib\site-packages (from torch) (4.2.0)
+PS C:\Users\Steff\Documents\VS\Personal> pip install requests
+Requirement already satisfied: requests in c:\users\steff\appdata\local\programs\python\python310\lib\site-packages (2.27.1)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\steff\appdata\local\programs\python\python310\lib\site-packages (from requests) (3.3)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in c:\users\steff\appdata\local\programs\python\python310\lib\site-packages (from requests) (1.26.9)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\steff\appdata\local\programs\python\python310\lib\site-packages (from requests) (2021.10.8)
+Requirement already satisfied: charset-normalizer~=2.0.0 in c:\users\steff\appdata\local\programs\python\python310\lib\site-packages (from requests) (2.0.12)
 WARNING: You are using pip version 21.2.4; however, version 22.0.4 is available.
 You should consider upgrading via the 'C:\Users\Steff\AppData\Local\Programs\Python\Python310\python.exe -m pip install --upgrade pip' command.
-PS C:\Users\Steff\Documents\\VS\Personal> & C:/Users/Steff/AppData/Local/Microsoft/WindowsApps/python3.10.exe c:/Users/Steff/Documents/Trash/VS/Personal/dall-e.py
+PS C:\Users\Steff\Documents\VS\Personal> & C:/Users/Steff/AppData/Local/Microsoft/WindowsApps/python3.10.exe c:/Users/Steff/Documents/VS/Personal/dall-e.py
 Traceback (most recent call last):
-  File "c:\Users\Steff\Documents\Trash\VS\Personal\dall-e.py", line 3, in <module>
+  File "c:\Users\Steff\Documents\VS\Personal\dall-e.py", line 3, in <module>
     import requests
 ModuleNotFoundError: No module named 'requests'
